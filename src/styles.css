@@ -98,12 +98,16 @@ footer{
     
 }
 
-.card button{
+.card a{
     padding: 20px;
-    width: 100%;
+    width: 50%;
     background-color: rgb(80, 68, 245);
     color: white;
     font-weight: bold;
+    display: block;
+    margin: 0 auto;
+    text-decoration: none;
+    text-align: center;
 }
 
 .card-header{
@@ -112,6 +116,7 @@ footer{
 
 .card-header img{
     width: 100%;
+    aspect-ratio: 1/1;
 }
 
 .card-header iframe{
